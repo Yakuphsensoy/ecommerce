@@ -138,7 +138,7 @@
     padding: 14px 0px 0px 0px;
     gap: 8px;
     border-radius: 69px 0px 0px 0px;
-    opacity: 0px;
+
 
 }
 
@@ -167,7 +167,7 @@
     padding: 14px 0px 0px 0px;
     border-radius: 69px 0px 0px 0px;
     border: 0.8px 0px 0px 0px;
-    opacity: 0px;
+
 
 }
 
@@ -175,7 +175,7 @@
 .adress {
     width: 205px;
     gap: 0px;
-    opacity: 0px;
+
     font-family: Poppins;
     font-size: 18px;
     font-weight: 500;

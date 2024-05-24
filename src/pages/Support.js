@@ -4,7 +4,7 @@ import "../styles/Support.css";
 import SupportImg from "../assets/supportImg.png";
 import SupportHeader from "../assets/supportHeader.png";
 import Footer from "../components/Footer";
-import Map from "../assets/map.png";
+
 
 export default function Support() {
     return (

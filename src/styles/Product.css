@@ -19,7 +19,7 @@
     top: 195px;
     left: 212px;
     gap: 0px;
-    opacity: 0px;
+
     display: block;
 
 }
@@ -41,7 +41,7 @@
     height: 522px;
     gap: 0px;
     border-radius: 8px 0px 0px 0px;
-    opacity: 0px;
+
     border-bottom: 1px solid #E0E0E0;
     display: flex;
     justify-content: center;
@@ -54,7 +54,7 @@
     align-items: center;
     width: 299px;
     gap: 0px;
-    opacity: 0px;
+
 
     object-fit: cover;
 
@@ -64,7 +64,7 @@
 .cargoInformation {
     width: 594px;
     gap: 29px;
-    opacity: 0px;
+
     display: flex;
     align-items: center;
     justify-content: end;
@@ -75,7 +75,7 @@
     width: 416px;
     padding: 10px 0px 0px 0px;
     gap: 78px;
-    opacity: 0px;
+
     justify-content: space-around;
     align-items: center;
 
@@ -85,7 +85,7 @@
     display: block;
     width: 147px;
     gap: 8px;
-    opacity: 0px;
+
 
 }
 
@@ -96,7 +96,7 @@
     top: 195px;
     left: 868px;
     gap: 37px;
-    opacity: 0px;
+
     display: block;
 
 }
@@ -105,7 +105,7 @@
     /* position: absolute; */
     width: 1104px;
     gap: 0px;
-    opacity: 0px;
+
 }
 
 .productTitle {
@@ -114,7 +114,7 @@
     height: 128px;
     padding: 16px 0px 0px 0px;
     gap: 16px;
-    opacity: 0px;
+
 
 }
 
@@ -123,7 +123,7 @@
     width: 560px;
     height: 156px;
     gap: 16px;
-    opacity: 0px;
+
 
 }
 
@@ -132,7 +132,7 @@
     width: 560px;
     height: 116px;
     gap: 16px;
-    opacity: 0px;
+
 
 }
 
@@ -148,7 +148,7 @@
     left: 0;
     gap: 0px;
     border-radius: 8px 0px 8px 0px;
-    opacity: 0px;
+
     font-weight: 600;
 
 
@@ -165,7 +165,7 @@
     gap: 0px;
     border-radius: 8px;
     border: 1px solid #E4E7EC;
-    opacity: 0px;
+
     text-align: center;
 }
 
@@ -188,7 +188,7 @@
     display: flex;
     width: 560px;
     gap: 20px;
-    opacity: 0px;
+
 
 }
 
@@ -197,7 +197,7 @@
     gap: 0px;
     border-radius: 6px 0px 0px 0px;
     border: 1px 0px 0px 0px;
-    opacity: 0px;
+
 
 
 }
@@ -208,7 +208,7 @@
     gap: 0px;
     border-radius: 6px 0px 0px 0px;
     border: 1px 0px 0px 0px;
-    opacity: 0px;
+
     display: flex;
     border: none;
     text-align: center;
@@ -242,7 +242,7 @@
     gap: 8px;
     border-radius: 6px 0px 0px 0px;
     border: 1px 0px 0px 0px;
-    opacity: 0px;
+
     border: 1px solid #F2F4F7;
     background: transparent;
 }
@@ -254,7 +254,7 @@
     gap: 8px;
     border-radius: 6px 0px 0px 0px;
     border: 1px 0px 0px 0px;
-    opacity: 0px;
+
     border: 1px solid #E4E7EC;
     font-family: Poppins;
     font-size: 16px;
@@ -272,7 +272,7 @@
     gap: 16px;
     border-radius: 8px 0px 0px 0px;
     border: 1px 0px 0px 0px;
-    opacity: 0px;
+
     background: #FCFCFD;
     border: 1px solid #E9E9E9;
     display: flex;
@@ -285,7 +285,7 @@
     width: 496px;
     height: 38px;
     gap: 0px;
-    opacity: 0px;
+
     display: flex;
     font-family: Poppins;
     font-size: 30px;
@@ -301,7 +301,7 @@ hr {
     width: 510px;
     height: 1px;
     gap: 0px;
-    opacity: 0px;
+
     color: #E4E7EC;
 
 
@@ -311,7 +311,7 @@ hr {
     width: 512px;
     height: 56px;
     gap: 16px;
-    opacity: 0px;
+
 
 }
 
@@ -321,7 +321,7 @@ hr {
     height: 56px;
     gap: 8px;
     border-radius: 8px;
-    opacity: 0px;
+
     background: #25D366;
     justify-content: center;
     align-items: center;
@@ -334,7 +334,7 @@ hr {
     width: 264px;
     height: 24px;
     gap: 0px;
-    opacity: 0px;
+
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
@@ -354,7 +354,7 @@ hr {
     gap: 10px;
     padding: 16px;
     border-radius: 8px 0px 0px 0px;
-    opacity: 0px;
+
     background-color: #F2F4F7;
     font-family: Poppins;
     font-size: 16px;

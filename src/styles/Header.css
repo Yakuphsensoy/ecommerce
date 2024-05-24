@@ -16,7 +16,7 @@
     width: 100%;
     height: 54px;
     gap: 0px;
-    opacity: 0px;
+
     background-color: #C7E1F5;
 }
 
@@ -81,7 +81,7 @@
     width: 100%;
     height: 47px;
     gap: 777px;
-    opacity: 0px;
+
     justify-content: space-between;
 }
 
