@@ -1,4 +1,5 @@
 # E-Ticaret React Uygulaması
+[https://cheeseecomerce.netlify.app/](https://cheeseecomerce.netlify.app/)
 
 Bu proje, React ile geliştirilmiş, modern web teknolojilerini içeren kapsamlı bir e-ticaret uygulamasıdır. Uygulama, yönlendirme, gezinme, context yönetimi, Auth0 ile kimlik doğrulama ve Google Maps iframeleri gibi özellikleri içermektedir.
 
