@@ -1,0 +1,264 @@
+.login {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 1280px;
+    display: flex;
+    justify-content: end;
+
+}
+
+.loginSide {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 87px;
+}
+
+.loginLeftSide {
+    width: 661px;
+    padding: 72px 124px 0 124px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.loginTxt {
+    width: 413px;
+    gap: 12px;
+    opacity: 0px;
+
+
+}
+
+.logintitle {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: left;
+
+}
+
+.loginParagraph {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.login-signUp {
+    display: flex;
+    gap: 16px;
+}
+
+.login-signUp span {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    padding: 0px 0px 8px 0px;
+}
+
+.loginBtn {
+    color: #76B7E6;
+    padding-bottom: 8px;
+    border-bottom: #76B7E6 1px solid;
+}
+
+.mail-password {
+    width: 413px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+
+.mailInput {
+    width: 100%;
+    gap: 6px;
+}
+
+.mailInput p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+}
+
+.mail {
+    width: 100%;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #E3E3E3;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+
+
+}
+
+.passwordInput {
+    width: 100%;
+    height: 74px;
+    gap: 6px;
+}
+
+.passwordInput p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+}
+
+.password {
+
+    width: 100%;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #E3E3E3;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+
+}
+
+.forgotPsw-rmbrBtn {
+    align-items: flex-end;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+.forgotPassword a {
+    color: #212121;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+}
+
+#rmbrBtn {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+
+}
+
+.rememberMe {
+    display: flex;
+    gap: 8px;
+}
+
+.rememberMe input {
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.loginClick {
+    width: 100%;
+    height: 48px;
+    gap: 8px;
+    border-radius: 6px;
+    opacity: 0px;
+    background-color: #76B7E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.loginClick p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.orLabel {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #6C6C6C;
+}
+
+.socialLoginSide {
+    text-align: center;
+    width: 100%;
+    height: 192px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCFCFD;
+    border: 0.75px solid #E3E3E3
+}
+
+.socialLoginSide h2 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+}
+
+.socialLoginSide p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #7D7D7D;
+}
+
+.googleFace {
+    width: 365px;
+    height: 48px;
+    gap: 16px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.googleFace button {
+    width: 174.5px;
+    height: 48px;
+    background-color: #FFFFFF;
+    border: 1px solid #E3E3E3;
+    border-radius: 8px;
+
+}
+
+/* login page right side */
+
+.loginRightSide {
+    width: 779px;
+    height: 804px;
+    display: block;
+}
+
+.rightSideImg {
+
+    background-image: url("https://s3-alpha-sig.figma.com/img/86d5/2cd9/6f09170dc4d124050065261089d626cd?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lK6inaxHexQs0kj1vfVfo-jA4TfLHCphweCxvA9TF06a7FDA9PCnGQUcpEJWnFZKb89VIt-DN8prlP6Doa3T5aTLIA4l3bxfg3BmxNZwBBIn4psHTAchL-NpneYtxbXzZCjTT2K33QB415lSh2kypxxeVPyqsr7HpDEBVWww0zO8AR9XAHp1SvuERyOzLBcq5ZSYE0EpT4qhx~QF9U-6pn8APjJDNEgeEhP~-QL4kFJKpN4De23ur8NF9a3r8xcf22ZeKp37nbY3tbxOSRUIdL7S21v5IpmrTQpxUfkphb9scdWyAccd-GXEdui8eJByik58voUPC5wKDoGF9QaofQ__");
+    width: 779px;
+    height: 804px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}

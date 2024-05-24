@@ -1,0 +1,87 @@
+.cheeseArea {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.cheeseTitle {
+    display: flex;
+    gap: 32px;
+}
+
+.card {
+    width: 280px;
+    height: 433px;
+    border: 1px solid #E9E9E9;
+    font-size: 15px;
+    border-radius: 8px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.img {
+    width: 280px;
+    height: 261px;
+}
+
+.cardContent {
+    padding: 20px;
+
+}
+
+.discountHandle {
+    display: flex;
+    gap: 8px;
+    font-size: 16px;
+}
+
+.oldPrice {
+    color: #8C8C8C;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.discount {
+    color: #5B1128;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0
+}
+
+.name {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: #1B1A17;
+}
+
+.weight {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 0;
+    color: #8C8C8C;
+}
+
+.empty {
+    height: 37.6px;
+}
+
+.img img {
+    width: 100%;
+    height: 261px;
+
+}
+
+@media (max-width:600px) {
+    .cheeseTitle {
+        flex-direction: column;
+
+    }
+}

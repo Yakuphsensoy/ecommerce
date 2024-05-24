@@ -1,0 +1,31 @@
+.sliderContent {
+    width: 548px;
+    height: 400px;
+    display: flex;
+
+    align-items: center;
+
+}
+
+.slidePanel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25em;
+    height: 25em;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+
+
+img {
+    scroll-snap-align: start;
+    min-width: 100%;
+    border-radius: 16px;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

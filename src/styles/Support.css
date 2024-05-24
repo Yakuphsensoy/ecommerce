@@ -1,0 +1,253 @@
+.support {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 1280px;
+    display: flex;
+    justify-content: end;
+}
+
+.contactImg {
+    width: 100%;
+    height: 226px;
+    display: flex;
+    margin-bottom: 96px;
+    background-size: cover;
+    background-position: center;
+}
+
+.contactImg img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    border-radius: 0;
+
+}
+
+.mainSide {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.block {
+    width: 1280px;
+    justify-content: center;
+    display: flex;
+    gap: 96px;
+}
+
+.contents {
+    width: 1008px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+
+.contentsLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactSide {
+    width: 1008px;
+    height: 748px;
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+
+
+}
+
+.callCenter {
+    display: flex;
+    gap: 24px;
+    align-items: start;
+    justify-content: start;
+}
+
+.numText {
+    display: flex;
+    flex-direction: column;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+
+
+.contentsTitle {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+
+}
+
+.contactSide img {
+    width: 554px;
+    height: 326px;
+    background-size: cover;
+    object-fit: cover;
+    justify-content: end;
+
+}
+
+.numbers-mail {
+    width: 365px;
+    display: flex;
+}
+
+.numbers {
+    margin-top: 50px;
+    display: flex;
+    gap: 24px;
+    padding: 0;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.numbers span {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.numbers svg {
+    width: 56px;
+    height: 56px;
+    padding: 14px 0px 0px 0px;
+    gap: 8px;
+    border-radius: 69px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.numbersText {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #6C6C6C;
+
+}
+
+.email {
+    width: 365px;
+    gap: 24px;
+    padding: 0;
+    text-align: left;
+    margin-bottom: 0px;
+    display: flex;
+}
+
+.email .svgMail {
+    width: 56px;
+    height: 56px;
+    padding: 14px 0px 0px 0px;
+    border-radius: 69px 0px 0px 0px;
+    border: 0.8px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+
+.adress {
+    width: 205px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.adressText {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #6C6C6C;
+}
+
+.contentRight {
+    width: 554px;
+    height: 326px;
+}
+
+.maps {
+    width: 1008px;
+    height: 326px;
+    display: flex;
+    gap: 32px;
+
+}
+
+.mapsArea {
+    display: flex;
+    flex-direction: column;
+    width: 422px;
+    gap: 56px;
+}
+
+.mapsText {
+    display: flex;
+    gap: 24px;
+}
+
+.mapsAdress {
+    display: flex;
+    flex-direction: column;
+}
+
+.textTitle {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+
+}
+
+.textAdress {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+
+}
+
+.mapSide {
+    display: flex;
+
+}
+
+.maps img {
+    width: 554px;
+    height: 326px;
+
+}

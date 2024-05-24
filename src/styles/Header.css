@@ -1,0 +1,149 @@
+/* Header CSS  */
+
+
+.header {
+    width: 100%;
+    height: 71px;
+
+}
+
+/* header top CSS */
+
+.headerTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 54px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #C7E1F5;
+}
+
+.headerTopContents {
+    display: flex;
+    gap: 791px;
+    justify-content: space-between;
+
+}
+
+/* menues CSS */
+.menues {
+    height: 54px;
+    align-items: center;
+    display: flex;
+    gap: 24px;
+    color: #1B1A17;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    cursor: pointer;
+
+}
+
+
+
+.signIn-signUp {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.signUp {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.signIn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* header bottom CSS */
+
+.headerBottom {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 71px;
+    font-weight: 400
+}
+
+.headerBottomContents {
+    display: flex;
+    width: 100%;
+    height: 47px;
+    gap: 777px;
+    opacity: 0px;
+    justify-content: space-between;
+}
+
+.order-delivery {
+    width: 348px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    justify-content: right;
+
+}
+
+.order {
+    margin: 0px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.order p {
+    text-align: left;
+    margin: 0px;
+}
+
+
+.orderTxt {
+    display: block;
+    font-size: 12px;
+}
+
+.shadowTxt {
+    color: #B8B8B7;
+    font-size: 12px;
+}
+
+.line {
+    margin: 0px;
+    width: 1px;
+    height: 33px;
+    background-color: #E8E8E8;
+    justify-content: center;
+    align-items: center;
+    border: none;
+
+}
+
+.delivery {
+    width: auto;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.delivery p {
+    text-align: left;
+    margin: 0%;
+}
+
+.deliveryTxt {
+    display: block;
+    font-size: 12px;
+}

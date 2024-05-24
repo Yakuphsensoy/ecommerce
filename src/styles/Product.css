@@ -1,0 +1,371 @@
+.product {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 1280px;
+    display: flex;
+    justify-content: end;
+}
+
+.productShowRoom {
+    /* position: absolute; */
+    width: 594px;
+    height: 660px;
+    top: 195px;
+    left: 212px;
+    gap: 0px;
+    opacity: 0px;
+    display: block;
+
+}
+
+.productContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 54px;
+}
+
+.productDetails {
+    display: flex;
+    flex-direction: row;
+    gap: 62px;
+}
+
+.productImgArea {
+    width: 592px;
+    height: 522px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    border-bottom: 1px solid #E0E0E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productImgArea img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 299px;
+    gap: 0px;
+    opacity: 0px;
+
+    object-fit: cover;
+
+
+}
+
+.cargoInformation {
+    width: 594px;
+    gap: 29px;
+    opacity: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.informationCards {
+    display: flex;
+    width: 416px;
+    padding: 10px 0px 0px 0px;
+    gap: 78px;
+    opacity: 0px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.card1 .card2 {
+    display: block;
+    width: 147px;
+    gap: 8px;
+    opacity: 0px;
+
+}
+
+.productInformation {
+    /* position: absolute; */
+    width: 560px;
+
+    top: 195px;
+    left: 868px;
+    gap: 37px;
+    opacity: 0px;
+    display: block;
+
+}
+
+.productText {
+    /* position: absolute; */
+    width: 1104px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.productTitle {
+    display: block;
+    width: 560px;
+    height: 128px;
+    padding: 16px 0px 0px 0px;
+    gap: 16px;
+    opacity: 0px;
+
+}
+
+.productWeight {
+    display: block;
+    width: 560px;
+    height: 156px;
+    gap: 16px;
+    opacity: 0px;
+
+}
+
+.weights {
+    display: flex;
+    width: 560px;
+    height: 116px;
+    gap: 16px;
+    opacity: 0px;
+
+}
+
+.w-discount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #76B7E6;
+    position: absolute;
+    width: 63px;
+    height: 31px;
+    top: 0;
+    left: 0;
+    gap: 0px;
+    border-radius: 8px 0px 8px 0px;
+    opacity: 0px;
+    font-weight: 600;
+
+
+}
+
+
+.w-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 176px;
+    padding: 19px 44px 19px 52px;
+    gap: 0px;
+    border-radius: 8px;
+    border: 1px solid #E4E7EC;
+    opacity: 0px;
+    text-align: center;
+}
+
+.w-card__selected {
+    border: 1px solid #76B7E6;
+}
+
+
+.w-cardPrice {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.w-cardWeight {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.productPiece {
+    display: flex;
+    width: 560px;
+    gap: 20px;
+    opacity: 0px;
+
+}
+
+.piecerCard {
+
+    gap: 0px;
+    border-radius: 6px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+
+}
+
+
+#piecer {
+    height: 42px;
+    gap: 0px;
+    border-radius: 6px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    display: flex;
+    border: none;
+    text-align: center;
+    outline: none;
+}
+
+.piercerHandle {
+
+    display: flex;
+    align-items: center;
+    border: 1px solid #E4E7EC;
+    background: transparent;
+    cursor: pointer;
+    padding: 2px;
+
+}
+
+
+
+.piercerHandle button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+}
+
+.decrement .increment {
+    width: 36px;
+    height: 36px;
+    padding: 8px 0px 0px 0px;
+    gap: 8px;
+    border-radius: 6px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #F2F4F7;
+    background: transparent;
+}
+
+#grammage {
+    width: 367px;
+    height: 48px;
+    padding: 12px 16px 12px 16px;
+    gap: 8px;
+    border-radius: 6px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #E4E7EC;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.totalPrice {
+    margin-top: 32px;
+    width: 560px;
+    height: 191px;
+    padding: 32px;
+    gap: 16px;
+    border-radius: 8px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: #FCFCFD;
+    border: 1px solid #E9E9E9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.price span {
+    width: 496px;
+    height: 38px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px;
+    text-align: left;
+    color: #000000;
+    justify-content: start;
+
+}
+
+hr {
+    width: 510px;
+    height: 1px;
+    gap: 0px;
+    opacity: 0px;
+    color: #E4E7EC;
+
+
+}
+
+.whatsappSide {
+    width: 512px;
+    height: 56px;
+    gap: 16px;
+    opacity: 0px;
+
+}
+
+.whatsapp {
+    display: flex;
+    width: 329px;
+    height: 56px;
+    gap: 8px;
+    border-radius: 8px;
+    opacity: 0px;
+    background: #25D366;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+
+}
+
+.whatsapp p {
+    width: 264px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+    padding: 0px;
+
+
+
+
+}
+
+.p-3 {
+    display: flex;
+    width: 1104px;
+    height: 80px;
+    gap: 10px;
+    padding: 16px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #F2F4F7;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #1D2939;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    width: 100%;
+}

@@ -1,24 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import { ContextProvider } from './ContextProvider'
+import Home from './pages/Home';
+import { Routes, Route, Link, NavLink } from 'react-router-dom';
+import Login from './pages/Login';
+import Product from './pages/Product';
+import Policies from './pages/Policies';
+import Support from './pages/Support';
+import SignUp from './pages/SignUp';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ContextProvider>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/product' element={<Product />} />
+        <Route path='/policies' element={<Policies />} />
+        <Route path='/signup' element={<SignUp />} />
+        <Route path='/support' element={<Support />} />
+      </Routes>
+    </ContextProvider>
   );
 }
 
