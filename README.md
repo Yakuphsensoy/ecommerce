@@ -1,6 +1,19 @@
-# Getting Started with Create React App
+# E-Ticaret React Uygulaması
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bu proje, React ile geliştirilmiş, modern web teknolojilerini içeren kapsamlı bir e-ticaret uygulamasıdır. Uygulama, yönlendirme, gezinme, context yönetimi, Auth0 ile kimlik doğrulama ve Google Maps iframeleri gibi özellikleri içermektedir.
+
+## Özellikler
+
+**React Router**: Uygulama içinde sayfalar arasında sorunsuz geçiş sağlanır.
+
+**useNavigate**: Uygulama içinde programatik olarak gezinme için React Router kancası.
+
+**Context API**: Durum yönetimi ve prop delme sorunlarını önlemek için kullanılır.
+
+**Auth0**: Güvenli kimlik doğrulama ve yetkilendirme.
+
+**Google Maps Iframes**: Mağaza konumlarını ve diğer harita ile ilgili özellikleri görüntülemek için kullanılır.
+
 
 ## Available Scripts
 
