@@ -1,6 +1,6 @@
 import { createContext, useState } from "react";
 import Yag from "./assets/tamYagliPeynir.png";
-import Sut from "./assets/sut.jpg";
+import Sut from "./assets/sut (1).png";
 import Lor from "./assets/trabzonLorPeynir.png";
 import TrabzonPeynir from "./assets/trabzonTereyagi.png";
 
@@ -16,7 +16,8 @@ export function ContextProvider({ children }) {
             unit: 'g',
             oldPrice: 299.99,
             discount: 15,
-            img: Yag
+            img: Yag,
+            slug: "tam-yagli-peynir"
 
         },
         {
@@ -27,7 +28,8 @@ export function ContextProvider({ children }) {
             unit: 'g',
             oldPrice: 299.99,
             discount: 15,
-            img: TrabzonPeynir
+            img: TrabzonPeynir,
+            slug: "trabzon-arakli-tereyagi"
 
         },
         {
@@ -36,7 +38,8 @@ export function ContextProvider({ children }) {
             weight: 1000,
             unit: 'g',
             price: 265.66,
-            img: Lor
+            img: Lor,
+            slug: "trabzon-arakli-lor-peyniri"
 
         },
         {
@@ -47,7 +50,8 @@ export function ContextProvider({ children }) {
             price: 265.66,
             oldPrice: 299.99,
             discount: 15,
-            img: Sut
+            img: Sut,
+            slug: "tam-yagli-inek-sutu"
 
         },
     ])

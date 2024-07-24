@@ -14,7 +14,7 @@ export default function Banner() {
             <div className="bannerLeft">
                 <div className="bannerLeftTxt">
                     <p className="top"><span className="bannerWp">Whatsapp</span> Üzerinden Hemen Sipariş Verin</p>
-                    <p className="bottom">Araklı İlçesinin Meşhur Süt Ürünleri
+                    <p className="bottom">Arakli Ilcesinin Meshur Sut Urunleri
                         Sizinle</p>
                 </div>
             </div>

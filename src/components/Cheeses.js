@@ -18,7 +18,8 @@ export default function Cheeses() {
                         oldPrice={cheese.oldPrice}
                         unit={cheese.unit}
                         discount={cheese.discount}
-                        img={cheese.img} />
+                        img={cheese.img}
+                        slug={cheese.slug} />
                 ))}
             </div>
         </div>

@@ -211,3 +211,19 @@
 .footer {
     width: 100%;
 }
+
+@media (max-width: 600px) {
+    .policiesContents {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .leftContents {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 32px;
+    }
+}

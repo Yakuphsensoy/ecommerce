@@ -1,13 +1,21 @@
-import Lor from "../assets/trabzonLorPeynir.png";
+
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import TopHeader from "../components/TopHeader";
 import "../styles/Product.css";
-import { useState } from "react";
+import { useContext, useState } from "react";
 import FooterPng from '../assets/footer.png';
+import { useParams } from 'react-router-dom';
+import { CheesesContext } from '../ContextProvider';
+
+
 
 export default function Product() {
     const [value, setValue] = useState(0);
+    const { slug } = useParams();
+    const { cheeses } = useContext(CheesesContext);
+    const cheese = cheeses.find(cheese => cheese.slug === slug);
+
 
     const increment = () => {
         setValue(prevValue => prevValue + 1);
@@ -26,7 +34,7 @@ export default function Product() {
                 <div className="productDetails">
                     <div className="productShowRoom">
                         <div className="productImgArea">
-                            <img src={Lor} alt="Lor" />
+                            <img src={cheese.img} alt={cheese.name} />
                         </div>
                         <div className="cargoInformation">
                             <div className="informationCards">
@@ -70,7 +78,7 @@ export default function Product() {
                     </div>
                     <div className="productInformation">
                         <div className="productTitle">
-                            <h3>Trabzon Araklı Lor Peyniri</h3>
+                            <h3>{cheese.name}</h3>
                             <ul>
                                 <li>Lorem ipsum dolor sit amet consectetur. Est pretium tincidunt purus </li>
                                 <li>Lorem ipsum dolor sit amet consectetur. Est pretium tincidunt purus </li>
@@ -80,7 +88,7 @@ export default function Product() {
                             <h3>İndirimli Gramaj Seçenekleri</h3>
                             <div className="weights">
                                 <div className="w-card">
-                                    <div className="w-discount">%20<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <div className="w-discount">%{cheese.discount}<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M5.104 5.35416L12.3957 12.6458M12.3957 12.6458V5.35416M12.3957 12.6458H5.104" stroke="#212121" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
                                     </div>
@@ -131,11 +139,10 @@ export default function Product() {
                         </div>
                         <div className="totalPrice">
                             <div className="price">
-                                <span>838.99 TL</span>
+                                <span>{cheese.price}TL</span>
                             </div>
                             <hr />
                             <div className="whatsappSide">
-
                                 <div className="whatsapp">
                                     <div className="whatsapp-svg">
                                         <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -154,7 +161,6 @@ export default function Product() {
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
                 <div className="productText">

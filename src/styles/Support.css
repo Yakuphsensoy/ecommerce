@@ -14,7 +14,6 @@
 
 .contactImg {
     width: 100%;
-    height: 226px;
     display: flex;
     margin-bottom: 96px;
     background-size: cover;
@@ -40,7 +39,6 @@
 }
 
 .block {
-    width: 1280px;
     justify-content: center;
     display: flex;
     gap: 96px;
@@ -63,8 +61,6 @@
 }
 
 .contactSide {
-    width: 1008px;
-    height: 748px;
     display: flex;
     flex-direction: column;
     gap: 96px;
@@ -75,13 +71,11 @@
 .callCenter {
     display: flex;
     gap: 24px;
-    align-items: start;
-    justify-content: start;
+
 }
 
 .numText {
-    display: flex;
-    flex-direction: column;
+
     font-family: Poppins;
     font-size: 18px;
     font-weight: 500;
@@ -199,8 +193,6 @@
 }
 
 .maps {
-    width: 1008px;
-    height: 326px;
     display: flex;
     gap: 32px;
 
@@ -249,5 +241,45 @@
 .maps img {
     width: 554px;
     height: 326px;
+
+}
+
+@media (max-width:600px) {
+    .contents {
+        display: flex;
+        flex-direction: column;
+        gap: 96px;
+    }
+
+    .callCenter {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .email {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .maps {
+        display: flex;
+        flex-direction: column;
+        gap: 96px;
+
+        align-items: center;
+    }
+
+    .mapsArea {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+
+
+    }
+
+
+
 
 }

@@ -1,7 +1,9 @@
 import React from 'react';
 import "../styles/Footer.css";
+import { useNavigate } from "react-router-dom";
 
 export default function Footer() {
+    const navigate = useNavigate();
     return (
         <footer className="topFooter">
             <div className="bottomFooter">
@@ -24,8 +26,8 @@ export default function Footer() {
                     </div>
                     <div className="footerLegalText">
                         <p className='legalTitle'>Kanuni Metinler</p>
-                        <p>Satış Sözleşmesi</p>
-                        <p>İletişim</p>
+                        <p onClick={() => navigate("/policies")}>Satış Sözleşmesi</p>
+                        <p onClick={() => navigate("/support")}>İletişim</p>
                         <p>Yardım & Destek</p>
                         <p>Gizlilik Politikası</p>
                         <p>Mesafeli Satış Sözleşmesi</p>
@@ -34,9 +36,9 @@ export default function Footer() {
                     </div>
                     <div className="footerSocialMedia">
                         <p className='socialTitle'>Sosyal Medya</p>
-                        <p>İnstagram</p>
+                        <a href='https://instagram.com/yakup.sensoy'>İnstagram</a>
                         <p>Facebook</p>
-                        <p>Twitter</p>
+                        <a href='https://x.com/sensoy_yakup'>Twitter</a>
                     </div>
                     <div className="footerContact">
                         <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">

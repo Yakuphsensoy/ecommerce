@@ -11,8 +11,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 25em;
-    height: 25em;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
