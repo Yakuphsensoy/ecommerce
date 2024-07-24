@@ -129,7 +129,7 @@
     justify-content: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 300px) {
     .footerContent {
         display: flex;
         flex-direction: column;
