@@ -361,7 +361,7 @@ hr {
 }
 
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 450px) {
     .productDetails {
         display: flex;
         flex-direction: column;
