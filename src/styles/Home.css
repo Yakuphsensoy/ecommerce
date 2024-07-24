@@ -35,10 +35,10 @@
 .txt {
     display: flex;
     justify-content: center;
-    font-weight: 400;
+    font-weight: 800;
     font-size: 30px;
     color: #212121;
-    font-family: "Lobster", sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .footer {
