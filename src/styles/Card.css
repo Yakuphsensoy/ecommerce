@@ -79,7 +79,7 @@
 
 }
 
-@media (max-width:450px) {
+@media (max-width:600px) {
     .cheeseTitle {
         flex-direction: column;
 
