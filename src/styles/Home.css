@@ -6,6 +6,13 @@
     justify-content: center;
 }
 
+.headers {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
 .container {
     width: 1280px;
     display: flex;
@@ -46,8 +53,9 @@
     margin-top: 124px;
 }
 
-@media (max-width:450px) {
-    .footer img {
-        display: none;
+@media (max-width:600px) {
+
+    .container {
+        width: 100%;
     }
 }

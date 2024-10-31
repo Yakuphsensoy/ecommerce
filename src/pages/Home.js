@@ -11,9 +11,11 @@ export default function Home() {
 
     return (
         <div className="home">
-            <TopHeader />
-            <div className="container">
+            <div className="headers">
+                <TopHeader />
                 <Header />
+            </div>
+            <div className="container">
                 <Banner />
                 <div className="dot-txt">
                     <div className="dot"></div>

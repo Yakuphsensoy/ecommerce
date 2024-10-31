@@ -27,9 +27,7 @@ export default function Product() {
     return (
         <div className="product">
             <TopHeader />
-            <div className="container">
-                <Header />
-            </div>
+            <Header />
             <div className="productContainer">
                 <div className="productDetails">
                     <div className="productShowRoom">

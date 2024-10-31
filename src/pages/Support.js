@@ -32,7 +32,7 @@ export default function Support() {
                                     </div>
                                     <div className="numText">
                                         <span className="telNumber">0 (555) 555 55 55 <br /> 0 (539) 704 04 77</span><br />
-                                        <span className="numbersText">Sorularınıza yanıt almak için müşteri hizmetlerimize 7/24 ulaşabilirsiniz.</span>
+                                        <span className="numbersText">Sorularınıza yanıt almak için <br />müşteri hizmetlerimize 7/24 ulaşabilirsiniz.</span>
                                     </div>
                                 </div>
                                 <div className="email">
@@ -81,5 +81,5 @@ export default function Support() {
             <Footer />
         </div>
     )
-    
+
 }

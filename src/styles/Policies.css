@@ -16,49 +16,50 @@
     /* position: absolute; */
     display: flex;
     width: 100%;
-    padding: 0px 80px 48px 80px;
+    padding: 0px 180px 48px 180px;
     gap: 10px;
+    box-sizing: border-box;
 
 
 }
 
 .side {
     display: flex;
+    box-sizing: border-box;
     padding: 0px 32px 0px 32px;
     gap: 10px;
-
+    box-sizing: border-box;
     justify-content: center;
 
 }
 
 .policiesContents {
     display: flex;
+    width: 100%;
     flex-direction: row;
     align-items: flex-start;
     gap: 32px;
-
     justify-content: center;
 }
 
 .leftContents {
     display: flex;
-    height: 416px;
-    padding: 24px 0px 0px 0px;
+    padding: 24px 0px 24px 0px;
     gap: 32px;
     border-radius: 8px;
     border: 1px 0px 0px 0px;
-
     border: 1px solid #E3E3E3;
 }
 
 .rigtContents {
     display: flex;
+    width: 100%;
     flex-direction: column;
-    padding: 48px 56px 48px 56px;
+    padding: 48px 48px 48px 48px;
     gap: 32px;
     border-radius: 8px;
     border: 1px;
-
+    box-sizing: border-box;
     border: 1px solid #E3E3E3;
 
 }
@@ -69,20 +70,21 @@
 }
 
 .titles {
-    width: 222px;
-    height: 368px;
+    display: flex;
     gap: 24px;
-
+    box-sizing: border-box;
     padding: 0px 24px 0px 0px;
+    display: flex;
 
 }
 
 .titles li {
-    display: block;
-    width: 222px;
-    height: 32px;
-    padding: 0px 0px 8px 0px;
-    gap: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 8px;
+
 
 
 }
@@ -90,29 +92,25 @@
 .titles p {
 
     gap: 0px;
-
     font-family: Inter;
     font-size: 14px;
     font-weight: 500;
-
     text-align: left;
 
 }
 
 .title-print {
-    width: 802px;
-    height: 38px;
+    width: 100%;
     gap: 0px;
     justify-content: space-between;
-
+    align-items: start;
     display: flex;
 }
 
-.title {
-    width: 240px;
-    height: 38px;
+.title-print {
+    width: 100%;
     gap: 0px;
-
+    display: flex;
 
 
 }
@@ -134,22 +132,21 @@
 }
 
 .policiesText {
-    width: 802px;
+    display: flex;
+
     gap: 32px;
+    flex-direction: column;
 
 }
 
 .policiesText-1 {
-    width: 802px;
     gap: 0px;
-
     padding: 24px;
 
 }
 
 .policiesText-1 p {
 
-    width: 802px;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -162,6 +159,7 @@
 .attention {
     padding: 16px;
     gap: 10px;
+    box-sizing: border-box;
     border-radius: 8px;
     background-color: #f2f4f4;
     display: flex;
@@ -181,7 +179,6 @@
 }
 
 .policiesText-2 p {
-    width: 802px;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -212,18 +209,38 @@
     width: 100%;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 600px) {
     .policiesContents {
         display: flex;
         flex-direction: column;
-        align-items: center;
         gap: 32px;
     }
 
     .leftContents {
-        display: flex;
-        flex-direction: row;
         align-items: center;
         gap: 32px;
+    }
+
+    .rigtContents {
+        flex-direction: column;
+    }
+
+    .title-print {
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .print {
+        display: none;
+    }
+
+    .policiesText {
+        display: flex;
+
+        flex-direction: column;
+    }
+
+    .mainSide {
+        padding: 0;
     }
 }

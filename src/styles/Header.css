@@ -1,12 +1,13 @@
 /* Header CSS  */
 
-
 .header {
     width: 100%;
-
 }
 
 /* header top CSS */
+.container {
+    width: 100%;
+}
 
 .headerTop {
     display: flex;
@@ -14,7 +15,7 @@
     justify-content: center;
     width: 100%;
     gap: 0px;
-
+    height: 57px;
     background-color: #C7E1F5;
 }
 
@@ -74,14 +75,13 @@
     align-items: center;
     width: 100%;
     height: 71px;
-    font-weight: 400
+    font-weight: 400;
+    justify-content: center;
 }
 
 .headerBottomContents {
     display: flex;
-    width: 100%;
-    gap: 777px;
-    justify-content: space-between;
+
 }
 
 .order-delivery {
@@ -146,8 +146,22 @@
     font-size: 12px;
 }
 
-@media screen and (max-width:450px) {
-    .headerTop {}
+@media screen and (max-width:600px) {
+    .headerTop {
+        display: none;
+    }
+
+
+    .headerBottom {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .order-delivery {
+        display: none;
+
+    }
 
 
 
