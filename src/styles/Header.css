@@ -146,6 +146,13 @@
     font-size: 12px;
 }
 
+@media screen and (max-width: 1280px) {
+    .headerTop {
+        display: none;
+    }
+}
+
+
 @media screen and (max-width:600px) {
     .headerTop {
         display: none;

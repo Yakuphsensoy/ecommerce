@@ -7,11 +7,11 @@
 .cheeseTitle {
     display: flex;
     gap: 32px;
+
 }
 
 .card {
-    width: 280px;
-    height: 433px;
+    width: 100%;
     border: 1px solid #E9E9E9;
     font-size: 15px;
     border-radius: 8px;
@@ -26,6 +26,7 @@
 
 .cardContent {
     padding: 20px;
+    box-sizing: border-box;
 
 }
 
@@ -82,6 +83,28 @@
 @media (max-width:600px) {
     .cheeseTitle {
         flex-direction: column;
+        align-items: center;
+        gap: 16px;
 
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+@media (min-width:601px) and (max-width: 900px) {
+    .cheeseTitle {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 32px;
+    }
+}
+
+@media (min-width:901px) and (max-width: 1250px) {
+    .cheeseTitle {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 32px;
     }
 }
